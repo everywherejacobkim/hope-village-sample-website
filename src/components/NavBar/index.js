@@ -10,7 +10,7 @@ export const NavBar = () => {
         <Navbar.Brand href="#home">PetShop</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Item</Nav.Link>
+          <Nav.Link href="#features">Product</Nav.Link>
           <Nav.Link href="#pricing">Cart</Nav.Link>
         </Nav>
       </Container>
