@@ -5,6 +5,7 @@ import MainBg from './components/MainBg';
 import { NavBar } from './components/NavBar';
 import ProductGrids from './components/ProductGrids/index';
 import productData from './data';
+import MainCarousel from './components/Carousel/index';
 
 function App() {
   let [product, setProduct] = useState(productData);
@@ -17,15 +18,16 @@ function App() {
             <>
               <NavBar />
               <MainBg />
+              <MainCarousel />
               <ProductGrids />
             </>
           }
         />
-        <Route path="/product" element={<div>Select your product</div>} />
-        <Route path="/dogFood" element={<div>Hello this is dogFood</div>} />
-        <Route path="/dogTreat" element={<div>HI this is dog Treat</div>} />
-        <Route path="/dogSupplies" element={<div>Heeeee this is S</div>} />
-        <Route path="/cart" element={<div>Cart is on...</div>} />
+        <Route path="/product" element={<NavBar />} />
+        <Route path="/dogFood" element={<NavBar />} />
+        <Route path="/dogTreat" element={<NavBar />} />
+        <Route path="/dogSupplies" element={<NavBar />} />
+        <Route path="/cart" element={<NavBar />} />
       </Routes>
     </div>
   );
