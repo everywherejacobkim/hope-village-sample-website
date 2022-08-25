@@ -1,9 +1,6 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import dogAds1 from '../../images/dog-5.jpg';
-import dogAds2 from '../../images/dog-6.jpg';
-import dogAds3 from '../../images/dog-7.jpg';
 
 const responsive = {
   desktop: {
@@ -28,12 +25,11 @@ const MainCarousel = () => {
     <div className="carousel-container">
       <p>Featured Products</p>
       <Carousel responsive={responsive}>
-        <img src={dogAds1} />
-        <img src={dogAds2} />
-        <img src={dogAds3} />
-        <img src={dogAds1} />
-        <img src={dogAds2} />
-        <img src={dogAds3} />
+        <img src="data/dogFood/image/dogFood-1.jpeg" />
+        <img src="data/dogFood/image/dogFood-2.jpeg" />
+        <img src="data/dogFood/image/dogFood-3.jpeg" />
+        <img src="data/dogFood/image/dogFood-4.jpeg" />
+        <img src="data/dogFood/image/dogFood-5.jpeg" />
       </Carousel>
     </div>
   );

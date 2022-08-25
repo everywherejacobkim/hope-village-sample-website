@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 
 const DogFood = () => {
   const [loading, setLoading] = useState(false);
-  const [dogData, setDogData] = useState([]);
+  const [productData, setProductData] = useState([]);
 
   useEffect(() => {
     setLoading(true);
@@ -14,7 +14,7 @@ const DogFood = () => {
       .get('data/dogFood/dogFoodData.json')
       .then((res) => {
         console.log(res.data);
-        setDogData(res.data);
+        setProductData(res.data);
       })
       .catch((e) => console.log(e))
       .finally(() => setLoading(false));
@@ -32,7 +32,7 @@ const DogFood = () => {
           </div>
         )}
 
-        {dogData.map((product) => (
+        {productData.map((product) => (
           <Card style={{ width: '18rem' }} key={product.id} className="dogFood-card">
             <Card.Img variant="top" src={product.image} alt="#" />
             <Card.Body>

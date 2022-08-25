@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
+import '@fontsource/ubuntu';
 import MainBg from './components/MainBg';
 import { NavBar } from './components/NavBar';
 import ProductGrids from './components/ProductGrids/index';
 import MainCarousel from './components/Carousel/index';
-import '@fontsource/ubuntu';
 import ProductPage from './pages/ProductSelection';
 import DogFood from './pages/DogFood';
+import DogTreat from './pages/DogTreat';
+import DogSupplies from './pages/DogSupplies';
 
 function App() {
   return (
@@ -45,8 +47,24 @@ function App() {
             </>
           }
         />
-        <Route path="/dogTreat" element={<NavBar />} />
-        <Route path="/dogSupplies" element={<NavBar />} />
+        <Route
+          path="/dogTreat"
+          element={
+            <>
+              <NavBar />
+              <DogTreat />
+            </>
+          }
+        />
+        <Route
+          path="/dogSupplies"
+          element={
+            <>
+              <NavBar />
+              <DogSupplies />
+            </>
+          }
+        />
         <Route path="/cart" element={<NavBar />} />
       </Routes>
     </div>

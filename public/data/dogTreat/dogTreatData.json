@@ -1,0 +1,76 @@
+[
+  {
+    "id": 0,
+    "title": "Grain Free Adult Dry Dog Food",
+    "content": "Real Lamb and Sweet Potato Grain Free Dog Food Recipe is crafted with whole foods",
+    "price": 25,
+    "image": "data/dogTreat/image/dogTreat-1.jpeg"
+  },
+
+  {
+    "id": 1,
+    "title": "Diets Adult Dog Food - Salmon & Sweet Potato",
+    "content":
+      "Diets Salmon & Sweet Potato Formula Dry Dog Food is made with real salmon",
+    "price": 32,
+    "image": "data/dogTreat/image/dogTreat-2.jpeg"
+  },
+
+  {
+    "id": 2,
+    "title": "All Life Stage Dry Dog Food",
+    "content": "Authority Salmon & Rice Formula Sensitive Stomach & Skin Dry Dog Food",
+    "price": 18,
+    "image": "data/dogTreat/image/dogTreat-3.jpeg"
+  },
+
+  {
+    "id": 3,
+    "title": "Natural Balance Adult Dry Dog Food",
+    "content": "Vegan Formula Natural Balance Vegetarian Dry Dog Food",
+    "price": 20,
+    "image": "data/dogTreat/image/dogTreat-4.jpeg"
+  },
+
+  {
+    "id": 4,
+    "title": "Grain Free Adult Dry Dog Food",
+    "content": "Real Salmon and Sweet Potato Grain Free Dog Food Recipe",
+    "price": 22,
+    "image": "data/dogTreat/image/dogTreat-5.jpeg"
+  },
+
+  {
+    "id": 5,
+    "title": "Puppy Dry Dog Food Small Bites",
+    "content": "Delicious chicken flavor in a small kibble size that contains DHA from fish oil",
+    "price": 28,
+    "image": "data/dogTreat/image/dogTreat-6.jpeg"
+  },
+
+  {
+    "id": 6,
+    "title": "Limited Ingredient Diets Puppy Dry Dog Food",
+    "content": "Duck & Potato Puppy Diets Formula Dry Dog Food",
+    "price": 14,
+    "image": "data/dogTreat/image/dogTreat-7.jpeg"
+  },
+
+  {
+    "id": 7,
+    "title": "True Solutions Adult Dry Dog Food",
+    "content": "True Solutions diet formulated by their team of veterinarians and PhD animal nutritionists",
+    "price": 30,
+    "image": "data/dogTreat/image/dogTreat-8.jpeg"
+  },
+
+  {
+    "id": 8,
+    "title": "Adult Dry Dog Food With Grain, Chicken & Barley",
+    "content": "Nourish your dog's complete well-being by taking an entire body approach",
+    "price": 16,
+    "image": "data/dogTreat/image/dogTreat-9.jpeg"
+  }
+]
+
+
