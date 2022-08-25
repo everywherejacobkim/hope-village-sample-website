@@ -6,6 +6,8 @@ import { NavBar } from './components/NavBar';
 import ProductGrids from './components/ProductGrids/index';
 import productData from './data';
 import MainCarousel from './components/Carousel/index';
+import '@fontsource/ubuntu';
+import ProductPage from './pages/Product';
 
 function App() {
   let [product, setProduct] = useState(productData);
@@ -20,10 +22,21 @@ function App() {
               <MainBg />
               <MainCarousel />
               <ProductGrids />
+              <div style={{ marginTop: 200, marginBottom: 20 }}>
+                © 2022 Jacob Namhyung Kim. All Rights Reserved
+              </div>
             </>
           }
         />
-        <Route path="/product" element={<NavBar />} />
+        <Route
+          path="/product"
+          element={
+            <>
+              <NavBar />
+              <ProductPage />
+            </>
+          }
+        />
         <Route path="/dogFood" element={<NavBar />} />
         <Route path="/dogTreat" element={<NavBar />} />
         <Route path="/dogSupplies" element={<NavBar />} />

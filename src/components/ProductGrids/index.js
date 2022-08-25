@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 function ProductGrids() {
   return (
     <Container className="main-category">
+      <p className="main-category-title">Categories</p>
       <Row>
         <Col>
           <Card style={{ width: '18rem', margin: '0 auto' }}>
