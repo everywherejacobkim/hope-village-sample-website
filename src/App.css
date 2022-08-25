@@ -1,7 +1,5 @@
 .App {
-  background-color: #fff;
   text-align: center;
-  font-family: "Ubuntu";
   margin: 0 auto;
 }
 
@@ -91,4 +89,29 @@
   font-weight: 900;
   margin-top: 15%;
   margin-bottom: 20%;
+}
+
+/** DogFood page **/
+.spinner {
+  margin: 20% auto;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding: 5%;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.product-card img{
+ width: 250px;
+ height: 250px;
 }
