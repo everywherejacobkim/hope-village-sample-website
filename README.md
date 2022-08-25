@@ -1,5 +1,5 @@
-# Sample shopping website for pet products and supplies made from React.js. 
-This project consists of the main page, product details, and cart page for payment.
+# Sample shopping website for pet products and supplies 
+This project consists of the main page, product details, and cart page for payment by React.js
 
 ## Available Scripts
 
