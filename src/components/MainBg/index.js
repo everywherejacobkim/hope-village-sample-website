@@ -1,4 +1,4 @@
-import mainBg from '../../images/main-bg-2.jpg';
+import mainBg from '../../images/main-bg.jpg';
 import Button from 'react-bootstrap/Button';
 
 const MainBg = () => {

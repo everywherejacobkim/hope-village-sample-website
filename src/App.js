@@ -10,6 +10,7 @@ import ProductPage from './pages/ProductSelection';
 import DogFood from './pages/DogFood';
 import DogTreat from './pages/DogTreat';
 import DogSupplies from './pages/DogSupplies';
+import Review from './components/Review/index';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
               <MainBg />
               <MainCarousel />
               <ProductGrids />
-              <div style={{ marginTop: 200, marginBottom: 20 }}>
+              <Review />
+              <div style={{ marginTop: 100, marginBottom: 20 }}>
                 © 2022 Jacob Namhyung Kim. All Rights Reserved
               </div>
             </>
