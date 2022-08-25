@@ -4,16 +4,22 @@ import Nav from 'react-bootstrap/Nav';
 const ProductPage = () => {
   return (
     <div className="product-page-menu">
-      <Nav defaultActiveKey="/home" className="flex-column">
-        <Nav.Link href="/dogFood">
-          <p>Dog Food</p>
-        </Nav.Link>
-        <Nav.Link href="/dogTreat" eventKey="link-1">
-          <p>Dog Treat</p>
-        </Nav.Link>
-        <Nav.Link href="/dogSupplies" eventKey="link-2">
-          <p>Dog Supplies</p>
-        </Nav.Link>
+      <Nav className="flex-column">
+        <div>
+          <Nav.Link href="/dogFood">
+            <p>Dog Food</p>
+          </Nav.Link>
+        </div>
+        <div>
+          <Nav.Link href="/dogTreat">
+            <p>Dog Treat</p>
+          </Nav.Link>
+        </div>
+        <div>
+          <Nav.Link href="/dogSupplies">
+            <p>Dog Supplies</p>
+          </Nav.Link>
+        </div>
       </Nav>
     </div>
   );
