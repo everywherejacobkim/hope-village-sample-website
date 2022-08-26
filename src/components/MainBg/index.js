@@ -14,7 +14,7 @@ const MainBg = () => {
           quasi corrupti omnis officia repellat harum tenetur animi consectetur ab, voluptatem modi
           tempora tempore veritatis.
         </p>
-        <Button variant="secondary" className="main-bg-btn">
+        <Button variant="success" className="main-bg-btn">
           About Us
         </Button>
         <Button variant="secondary">Contact Us</Button>

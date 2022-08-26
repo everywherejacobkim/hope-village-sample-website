@@ -21,7 +21,7 @@ function ProductGrids() {
               <Card.Title>Dog Food</Card.Title>
               <Card.Text>Food</Card.Text>
               <Link to="/dogFood">
-                <Button variant="secondary">Go Shop</Button>
+                <Button variant="success">Go Shop</Button>
               </Link>
             </Card.Body>
           </Card>
@@ -33,7 +33,7 @@ function ProductGrids() {
               <Card.Title>Dog Treat</Card.Title>
               <Card.Text>Treat</Card.Text>
               <Link to="/dogTreat">
-                <Button variant="secondary">Go Shop</Button>
+                <Button variant="success">Go Shop</Button>
               </Link>
             </Card.Body>
           </Card>
@@ -46,7 +46,7 @@ function ProductGrids() {
               <Card.Title>Dog Supplies</Card.Title>
               <Card.Text>Supplies</Card.Text>
               <Link to="/dogSupplies">
-                <Button variant="secondary">Go Shop</Button>
+                <Button variant="success">Go Shop</Button>
               </Link>
             </Card.Body>
           </Card>
