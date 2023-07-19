@@ -7,7 +7,8 @@ const Review = () => {
     <div className="review-container">
       <img src={reviewImg} />
       <div className="review-desc">
-        <h1>Customer Review</h1>
+        <h1>우수 고객평</h1>
+        <h5>Customer Review</h5>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt autem sapiente possimus,
           temporibus hic, recusandae sed totam, modi iste enim adipisci? Quam aliquid deleniti,
@@ -21,7 +22,7 @@ const Review = () => {
           <AiFillStar />
           <AiOutlineStar />
         </div>
-        <Button variant="secondary">More Reviews</Button>
+        <Button variant="secondary">전체 보기</Button>
       </div>
     </div>
   );

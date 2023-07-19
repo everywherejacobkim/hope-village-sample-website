@@ -23,16 +23,16 @@ const responsive = {
 const MainCarousel = () => {
   return (
     <div className="carousel-container">
-      <p>Featured Products</p>
+      <p>베스트 상품</p>
       <Carousel responsive={responsive}>
-        <img src="data/dogFood/image/dogFood-1.jpeg" />
-        <img src="data/dogTreat/image/dogTreat-2.jpeg" />
-        <img src="data/dogFood/image/dogFood-3.jpeg" />
-        <img src="data/dogTreat/image/dogTreat-4.jpeg" />
-        <img src="data/dogFood/image/dogFood-5.jpeg" />
-        <img src="data/dogSupplies/image/dogSupplies-6.jpeg" />
-        <img src="data/dogFood/image/dogFood-7.jpeg" />
-        <img src="data/dogSupplies/image/dogSupplies-8.jpeg" />
+        <img src="data/productOil/image/참기름1800.jpg" />
+        <img src="data/productOil/image/들기름320.jpg" />
+        <img src="data/productSeasonal/image/흑깨300.jpg" />
+        <img src="data/productEtc/image/볶음소금.jpg" />
+        <img src="data/productOil/image/참기름1800.jpg" />
+        <img src="data/productOil/image/들기름320.jpg" />
+        <img src="data/productSeasonal/image/흑깨300.jpg" />
+        <img src="data/productEtc/image/볶음소금.jpg" />
       </Carousel>
     </div>
   );

@@ -1,0 +1,31 @@
+[
+  {
+    "id": 0,
+    "title": "국내산 건강한 참기름 320ml",
+    "content": "낮은 온도에서 볶은 국내산 참깨를 저온으로 착유하여 참깨의 영양을 가득 담았습니다",
+    "price": "12,000원",
+    "image": "data/productOil/image/참기름320.png"
+  },
+  {
+    "id": 1,
+    "title": "국내산 건강한 들기름 320ml",
+    "content": "갖 볶은 국내산 들깨를 자연건조 후 저온으로 착유하여 청명한 색감과 고소함을 담았습니다",
+    "price": "14,000원",
+    "image": "data/productOil/image/들기름320.jpg"
+  },
+  {
+    "id": 2,
+    "title": "국내산 건강한 참기름 1.8L",
+    "content": "낮은 온도에서 볶은 국내산 참깨를 저온으로 착유하여 참깨의 영양을 가득 담았습니다",
+    "price": "80,000원",
+    "image": "data/productOil/image/참기름1800.jpg"
+  },
+  {
+    "id": 3,
+    "title": "국내산 건강한 들기름 1.8L",
+    "content": "갖 볶은 국내산 들깨를 자연건조 후 저온으로 착유하여 청명한 색감과 고소함을 담았습니다",
+    "price": "84,000원",
+    "image": "data/productOil/image/참기름1800.jpg"
+  }
+
+]

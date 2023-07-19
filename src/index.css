@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: rgba(0, 0, 0, 0.025);
-  font-family: "Ubuntu";
+  font-family: "NanumGothic";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -9,4 +9,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Gugi";
+  font-weight: 400;
+  src: url("./fonts/Gugi-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NanumGothic";
+  font-weight: 400;
+  src: url("./fonts/NanumGothic-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NanumGothic";
+  font-weight: 700;
+  src: url("./fonts/NanumGothic-Bold.ttf");
 }
