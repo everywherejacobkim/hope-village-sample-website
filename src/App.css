@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'animate.css/animate.min.css';
+
 .App {
   text-align: center;
   margin: 0 auto;
@@ -31,7 +36,7 @@
   padding-right: 10%;
 }
 
-.main-bg h1{
+.main-bg h1 {
   font-size: 28pt;
 }
 
@@ -48,10 +53,10 @@
 .main-bg-desc-title {
   font-family: 'Gugi';
   margin-left: 5%;
-  margin-top: .5%;
+  margin-top: 0.5%;
 }
 
-.main-bg img{
+.main-bg img {
   width: 440px;
   height: 580px;
   border-radius: 5%;
@@ -61,7 +66,6 @@
 .main-bg-btn {
   margin-right: 3%;
 }
-
 
 /** main-page carousel **/
 .carousel-container {
@@ -114,7 +118,7 @@
   padding: 0 7.5%;
 }
 
-.review-container img{
+.review-container img {
   width: 400px;
   height: 450px;
   border-radius: 5%;
@@ -123,7 +127,7 @@
 
 .review-desc {
   text-align: left;
-  padding-top: 19%;
+  padding-top: 15%;
   padding-left: 10%;
 }
 
@@ -142,24 +146,23 @@
 }
 
 /** Product Page **/
-.product-page-menu { 
+.product-page-menu {
   width: 50%;
   margin: 5% auto;
 }
 
-.product-page-menu div{ 
+.product-page-menu div {
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
-.product-page-menu p{
+.product-page-menu p {
   font-size: xx-large;
   text-align: center;
   color: #353535;
   font-weight: 900;
 }
 
-/** DogFood page **/
 .spinner {
   margin: 20% auto;
 }
@@ -184,10 +187,10 @@
   margin: 20px;
 }
 
-.dogFood-card img{
- width: 250px;
- height: 250px;
- margin-top: 2%;
+.dogFood-card img {
+  width: 250px;
+  height: 250px;
+  margin-top: 2%;
 }
 
 .dogFood-card-title {
@@ -207,7 +210,8 @@
   margin-top: 4%;
 }
 
-.quote-l, .quote-r {
+.quote-l,
+.quote-r {
   margin-bottom: 5%;
   font-size: small;
 }

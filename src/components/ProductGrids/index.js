@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -21,9 +20,9 @@ function ProductGrids() {
               </Card.Title>
               <Card.Text>Oils</Card.Text>
               <Link to="/dogFood">
-                <Button variant="success">
+                <button className="bg-green-700 py-2 px-3 rounded text-white mt-3">
                   <b>둘러보기</b>
-                </Button>
+                </button>
               </Link>
             </Card.Body>
           </Card>
@@ -37,9 +36,9 @@ function ProductGrids() {
               </Card.Title>
               <Card.Text>Seasonal Products</Card.Text>
               <Link to="/dogTreat">
-                <Button variant="success">
+                <button className="bg-green-700 py-2 px-3 rounded text-white mt-3">
                   <b>둘러보기</b>
-                </Button>
+                </button>
               </Link>
             </Card.Body>
           </Card>
@@ -54,9 +53,9 @@ function ProductGrids() {
               </Card.Title>
               <Card.Text>Other Products</Card.Text>
               <Link to="/dogSupplies">
-                <Button variant="success">
+                <button className="bg-green-700 py-2 px-3 rounded text-white mt-3">
                   <b>둘러보기</b>
-                </Button>
+                </button>
               </Link>
             </Card.Body>
           </Card>

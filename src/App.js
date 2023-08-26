@@ -7,10 +7,11 @@ import { NavBar } from './components/NavBar';
 import ProductGrids from './components/ProductGrids/index';
 import MainCarousel from './components/Carousel/index';
 import ProductPage from './pages/ProductSelection';
-import DogFood from './pages/ProductOil';
-import DogTreat from './pages/ProductSeasonal';
-import DogSupplies from './pages/ProductEtc';
+import ProductOil from './pages/ProductOil';
+import ProductSeasonal from './pages/ProductSeasonal';
+import ProductEtc from './pages/ProductEtc';
 import Review from './components/Review/index';
+import AboutUs from './pages/AboutUs/AboutUs';
 
 function App() {
   return (
@@ -26,11 +27,20 @@ function App() {
               <ProductGrids />
               <Review />
               <div style={{ marginTop: 100, marginBottom: 20 }}>
-                © 2022 영농법인 희망마을 All Rights Reserved &nbsp;
+                © 2022 devjacobkim.co All Rights Reserved &nbsp;
                 <a href="https://www.freepik.com/free-vector/illustrated-colorful-countryside-landscape_9989008.htm#query=village&position=0&from_view=search">
                   Freepik
                 </a>
               </div>
+            </>
+          }
+        />
+        <Route
+          path="/aboutUs"
+          element={
+            <>
+              <NavBar />
+              <AboutUs />
             </>
           }
         />
@@ -44,33 +54,33 @@ function App() {
           }
         />
         <Route
-          path="/dogFood"
+          path="/productOil"
           element={
             <>
               <NavBar />
-              <DogFood />
+              <ProductOil />
             </>
           }
         />
         <Route
-          path="/dogTreat"
+          path="/productSeasonal"
           element={
             <>
               <NavBar />
-              <DogTreat />
+              <ProductSeasonal />
             </>
           }
         />
         <Route
-          path="/dogSupplies"
+          path="/productEtc"
           element={
             <>
               <NavBar />
-              <DogSupplies />
+              <ProductEtc />
             </>
           }
         />
-        <Route path="/cart" element={<NavBar />} />
+        <Route path="/howToOrder" element={<NavBar />} />
       </Routes>
     </div>
   );
