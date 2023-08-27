@@ -14,16 +14,14 @@ export const NavBar = () => {
               <AiTwotoneStar
                 size={34}
                 style={{
-                  marginTop: 1,
-                  marginRight: 1.5,
-                  color: '#80b918',
-                  transform: 'rotate(-15deg)'
+                  color: '#80b918'
                 }}
+                className="animate-pulse mr-0.5 mb-2"
               />
               <h2 style={{ fontFamily: 'Gugi', fontWeight: 400 }}>희망마을</h2>
             </div>
           </Navbar.Brand>
-          <Nav className="me-auto flex gap-4">
+          <Nav className="me-auto flex gap-3">
             <Nav.Link href="/aboutUs">
               <div>
                 <h3>소개</h3>
@@ -36,7 +34,7 @@ export const NavBar = () => {
                 <p className="text-xs">Products</p>
               </div>
             </Nav.Link>
-            <Nav.Link href="/cart">
+            <Nav.Link href="/howToOrder">
               <div>
                 <h3>주문</h3>
                 <p className="text-xs">How to Order</p>

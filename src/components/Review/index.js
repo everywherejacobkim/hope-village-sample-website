@@ -7,7 +7,7 @@ const Review = () => {
       <img src={reviewImg} />
       <div className="review-desc">
         <h1>우수 고객평</h1>
-        <h5 className="pl-1">Customer Review</h5>
+        <h5 className="pl-1 text-amber-500 font-semibold">Customer Review</h5>
         <p>
           I am truly delighted to have discovered Hopevillage. Their commitment to crafting
           nourishing food that prioritizes health resonates deeply with me. The organic sesame oil
@@ -18,11 +18,11 @@ const Review = () => {
           grateful to be a part of this journey towards healthier living.
         </p>
         <div className="review-rating">
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
-          <AiOutlineStar />
+          <AiFillStar className="text-primary-action" />
+          <AiFillStar className="text-primary-action" />
+          <AiFillStar className="text-primary-action" />
+          <AiFillStar className="text-primary-action" />
+          <AiOutlineStar className="text-primary-action" />
         </div>
         <button className="bg-gray-200 py-2 px-3 rounded text-gray-700 font-semibold">
           전체 보기

@@ -5,8 +5,19 @@
     "content": "저온에서 볶아 24시간 숙성한 국내산 천연 볶음소금",
     "price": "30,000원",
     "image": "data/productEtc/image/볶음소금.jpg"
+  },
+  {
+    "id": 1,
+    "title": "희망마을 아카시아 꿀",
+    "content": "영천 지역에서 전통방식으로 직접 생산한 100% 아카시아 꿀",
+    "price": "25,000원",
+    "image": "data/productEtc/image/전통꿀.jpg"
+  },
+  {
+    "id": 3,
+    "title": "희망마을 살구잼",
+    "content": "영천 지역에서 직접 생산한 살구로 알알이 씹히는 유기농 잼",
+    "price": "25,000원",
+    "image": "data/productEtc/image/살구잼.jpg"
   }
-
 ]
-
-

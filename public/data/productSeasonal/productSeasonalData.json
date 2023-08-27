@@ -4,9 +4,13 @@
     "title": "희망마을 흑깨 참기름",
     "content": "낮은 온도에서 볶은 흑깨를 특수공법으로 압착하여 만들었습니다",
     "price": "15,000원",
-    "image": "data/productSeasonal/image/흑깨300.jpg"
+    "image": "data/productSeasonal/image/흑깨300.png"
+  },
+  {
+    "id": 0,
+    "title": "희망마을 잣 참기름",
+    "content": "낮은 온도에서 볶은 유기농 잣을 특수공법으로 압착하여 만들었습니다",
+    "price": "35,000원",
+    "image": "data/productSeasonal/image/잣500.jpg"
   }
-
 ]
-
-

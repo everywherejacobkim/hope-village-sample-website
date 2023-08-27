@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Spinner from 'react-bootstrap/Spinner';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri';
 
 const DogTreat = () => {
   const [loading, setLoading] = useState(false);
@@ -23,7 +21,12 @@ const DogTreat = () => {
 
   return (
     <>
-      <h2 className="dogFood-title">계절 특산품</h2>
+      <div className="my-10">
+        <h1 className="text-3xl font-bold">계절 특산품</h1>
+        <h1 className="text-sm font-bold bg-primary-action text-white mt-1 py-0.5">
+          Seasonal Products
+        </h1>
+      </div>
       <div className="product-container">
         {loading && (
           <div className="spinner">
@@ -35,17 +38,16 @@ const DogTreat = () => {
 
         {productData.map((product) => (
           <Card style={{ width: '18rem' }} key={product.id} className="dogFood-card">
-            <Card.Img variant="top" src={product.image} alt="#" />
+            <Card.Img
+              variant="top"
+              src={product.image}
+              alt="#"
+              className="w-64 h-64 mx-auto mt-2"
+            />
             <Card.Body>
-              <Card.Title className="dogFood-card-title">{product.title}</Card.Title>
-              <Card.Text className="dogFood-card-content">
-                {' '}
-                <RiDoubleQuotesL className="quote-l" />
-                {product.content}
-                <RiDoubleQuotesR className="quote-r" />
-              </Card.Text>
-              <Card.Text className="dogFood-card-price">{`${product.price}`}</Card.Text>
-              <Button variant="success">Add Cart</Button>
+              <Card.Title className="font-semibold mb-3">{product.title}</Card.Title>
+              <Card.Text className="text-sm mb-3 mx-4">{product.content}</Card.Text>
+              <Card.Text className="mb-2 font-sans">{`${product.price}`}</Card.Text>
             </Card.Body>
           </Card>
         ))}

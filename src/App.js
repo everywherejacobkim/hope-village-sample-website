@@ -27,10 +27,7 @@ function App() {
               <ProductGrids />
               <Review />
               <div style={{ marginTop: 100, marginBottom: 20 }}>
-                © 2022 devjacobkim.co All Rights Reserved &nbsp;
-                <a href="https://www.freepik.com/free-vector/illustrated-colorful-countryside-landscape_9989008.htm#query=village&position=0&from_view=search">
-                  Freepik
-                </a>
+                © 2022 devjacobkim.co All Rights Reserved.
               </div>
             </>
           }

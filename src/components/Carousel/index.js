@@ -46,13 +46,15 @@ const bestProducts = [
   },
   {
     image: product4,
-    title: '건강한 참기름',
-    eng: 'Jumbo Sesame Oil',
-    amount: '1800ml'
+    title: '흑깨 참기름',
+    eng: 'Black Sesame Oil',
+    amount: '300ml'
   },
   {
     image: product5,
-    title: '들기름 320ml'
+    title: '건강한 참기름',
+    eng: 'Jumbo Sesame Oil',
+    amount: '1800ml'
   }
 ];
 
@@ -62,11 +64,13 @@ const MainCarousel = () => {
       <p>베스트 상품</p>
       <Carousel responsive={responsive}>
         {bestProducts.map((product, index) => (
-          <div key={index} className="bg-lime-200/50 pt-3 pb-3 mx-2 rounded-xl">
+          <div
+            key={index}
+            className="bg-gray-100/60 border-2 border-gray-200 pt-3 pb-3 mx-2 rounded-xl">
             <img src={product.image} alt="product-image" />
             <h1 className="font-semibold -mt-2">{product.title}</h1>
             <h1 className="text-xs mt-1 font-semibold">{product.eng}</h1>
-            <h1 className="mt-2 text-sm bg-red-400 mx-24 p-1 rounded-full text-white font-bold">
+            <h1 className="mt-2 text-sm bg-amber-500/80 mx-24 p-1 rounded-full text-white font-bold">
               {product.amount}
             </h1>
           </div>
