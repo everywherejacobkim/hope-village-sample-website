@@ -26,3 +26,5 @@ The Hope Village website project aims to establish an online platform and produc
 - JavaScript(ES6+)
 - npm 
 - Git
+
+<img width="1150" alt="screenshot 2023-08-27 오전 12 14 12" src="https://github.com/everywherejacobkim/hope-village-sample-website/assets/87889917/8c844029-5210-4bc6-96d1-35e70d25d1c4">
