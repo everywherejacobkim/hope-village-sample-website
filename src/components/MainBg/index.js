@@ -1,4 +1,4 @@
-import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 import mainBg from '../../images/main-illustration.jpg';
 import './birds.css';
 
@@ -24,11 +24,11 @@ const MainBg = () => {
         </div>
         <div>
           <div className="flex gap-2">
-            <Nav.Link href="/aboutUs">
+            <Link to="/aboutUs">
               <button className="bg-green-700 py-2 px-3 rounded text-white">
                 <b>인사말</b>
               </button>
-            </Nav.Link>
+            </Link>
             <button className="bg-gray-200 py-2 px-3 rounded text-gray-700">
               <b>오시는 길</b>
             </button>

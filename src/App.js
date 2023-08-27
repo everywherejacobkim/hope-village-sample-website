@@ -12,6 +12,7 @@ import ProductSeasonal from './pages/ProductSeasonal';
 import ProductEtc from './pages/ProductEtc';
 import Review from './components/Review/index';
 import AboutUs from './pages/AboutUs/AboutUs';
+import HowToOrder from './pages/HowToOrder/HowToOrder';
 
 function App() {
   return (
@@ -77,7 +78,15 @@ function App() {
             </>
           }
         />
-        <Route path="/howToOrder" element={<NavBar />} />
+        <Route
+          path="/howToOrder"
+          element={
+            <>
+              <NavBar />
+              <HowToOrder />
+            </>
+          }
+        />
       </Routes>
     </div>
   );

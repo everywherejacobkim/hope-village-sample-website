@@ -1,6 +1,6 @@
 import React from 'react';
-import 'animate.css'; // Import animate.css styles
-import sesameOilImage from '../../images/sesame-oil-image.jpg'; // Import your sesame oil image
+import 'animate.css';
+import sesameOilImage from '../../images/sesame-oil-image.jpg';
 
 const AboutUs = () => {
   return (

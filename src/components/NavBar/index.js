@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { AiTwotoneStar } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
   return (
@@ -22,24 +23,24 @@ export const NavBar = () => {
             </div>
           </Navbar.Brand>
           <Nav className="me-auto flex gap-3">
-            <Nav.Link href="/aboutUs">
+            <Link to="/aboutUs">
               <div>
                 <h3>소개</h3>
                 <p className="text-xs">About Us</p>
               </div>
-            </Nav.Link>
-            <Nav.Link href="/product">
+            </Link>
+            <Link to="/product">
               <div>
                 <h3>카테고리</h3>
                 <p className="text-xs">Products</p>
               </div>
-            </Nav.Link>
-            <Nav.Link href="/howToOrder">
+            </Link>
+            <Link to="/howToOrder">
               <div>
                 <h3>주문</h3>
                 <p className="text-xs">How to Order</p>
               </div>
-            </Nav.Link>
+            </Link>
           </Nav>
         </Container>
       </Navbar>
